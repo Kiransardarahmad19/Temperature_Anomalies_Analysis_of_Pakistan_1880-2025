@@ -1,22 +1,21 @@
 # Temperature Anomalies in Pakistan (1880–2025)
 
+“This project analyzes monthly temperature anomaly data for Pakistan (1880–2025) using exploratory data analysis and time-series forecasting. The goal is to measure long-term warming trends, smooth seasonal fluctuations, and build predictive models to forecast future temperature changes. By focusing on Pakistan, a climate-vulnerable country , the study highlights both historical climate change impacts and future risks.”
+
 This repository contains the notebook **`main.ipynb`**, which analyzes historical and future temperature anomaly trends for Pakistan using NASA GISTEMP data.
 
-## 📁 Repository Contents
+## Repository Contents
 - `main.ipynb` — Jupyter notebook with code, visuals, and findings.
-- `README.md` — You are here.
+- `README.md` - Summary of Project 
 
-## 📊 Dataset Source
+## Dataset Source
 NASA GISTEMP v4: https://data.giss.nasa.gov/gistemp/
 
 Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
 
-## 🎯 Problem Statement
-“This project analyzes monthly temperature anomaly data for Pakistan (1880–2025) using exploratory data analysis and time-series forecasting. The goal is to measure long-term warming trends, smooth seasonal fluctuations, and build predictive models to forecast future temperature changes. By focusing on Pakistan — a climate-vulnerable country — the study highlights both historical climate change impacts and future risks.”
-
 ---
 
-# 📑 Project Storyline: Temperature Anomalies in Pakistan (1880–2025)
+# Temperature Anomalies in Pakistan (1880–2025)
 
 ## 1. Introduction
 - **Problem Statement**: Climate change is one of the greatest challenges of the 21st century. Pakistan, being highly vulnerable due to its geography and reliance on agriculture, faces significant risks from rising temperatures.
@@ -47,23 +46,23 @@ Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
 
 ---
 
-# 🧪 Results & Figures (Concise)
+# Results & Figures 
 
-## 1) EDA — Global & Pakistan Anomaly Trends
+## 1) EDA-Global & Pakistan Anomaly Trends
 **What we did:** Loaded NASA GISTEMP v4 monthly anomalies; validated coverage; visualized Pakistan vs global series; applied 12‑month rolling means.
 **Key takeaways:** Both global and Pakistan series warm markedly post‑1970; Pakistan’s variability is higher but follows the global upward drift.
 
-## 2) Regional Breakdown — North, South, East (Punjab) Slopes
+## 2) Regional Breakdown-North, South, East (Punjab) Slopes
 **What we did:** Aggregated gridded anomalies by region and estimated linear warming rates.
 **Key takeaways:** North (mountains) warms fastest (~0.13 °C/decade), East/Punjab ~0.11 °C/decade (agri‑critical), South ~0.09 °C/decade (heat‑stress compounding).
 
-## 3) Change Point Detection — 1970s Acceleration
+## 3) Change Point Detection-1970s Acceleration
 **What we did:** Computed rolling 10‑year slopes and inspected structural shifts.
 **Key takeaways:** Persistent positive rates after the 1970s indicate a regime shift to sustained warming → higher baseline risk for heat, melt and water stress.
 
-## 4) Extreme Event Analysis — Top Hottest Years
+## 4) Extreme Event Analysis-Top Hottest Years
 **What we did:** Ranked annual means and monthly extremes.
-**Key takeaways:** Top‑10 hottest years cluster after 2000, showing a *new normal* of frequent extremes (aligns with observed heatwaves and 2022 anomalies).
+**Key takeaways:** Top‑10 hottest years cluster after 2000, showing a frequent extremes (aligns with observed heatwaves and 2022 anomalies).
 
 ## 5) Pakistan vs Global Comparison
 **What we did:** Overlayed Pakistan and global anomalies; compared decadal means.
@@ -83,7 +82,7 @@ Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
 
 ---
 
-## 🔧 Environment & Dependencies
+## Environment & Dependencies
 Python ≥ 3.9. Main libraries: pandas, numpy, matplotlib, seaborn, scikit‑learn, plotly.
 
 ```bash
@@ -94,10 +93,4 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet pmdarima
 ```
-
-## ▶️ How to Run
-1. Clone/download repo.
-2. Create venv & install dependencies.
-3. Launch Jupyter & open `main.ipynb`.
-4. Run all cells top‑to‑bottom.
 
