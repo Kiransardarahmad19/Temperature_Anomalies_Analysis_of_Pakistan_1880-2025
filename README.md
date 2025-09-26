@@ -49,28 +49,34 @@ Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
 # Results & Figures 
 
 ## 1) EDA-Global & Pakistan Anomaly Trends
-**What we did:** Loaded NASA GISTEMP v4 monthly anomalies; validated coverage; visualized Pakistan vs global series; applied 12‑month rolling means.
-**Key takeaways:** Both global and Pakistan series warm markedly post‑1970; Pakistan’s variability is higher but follows the global upward drift.
+Loaded NASA GISTEMP v4 monthly anomalies; validated coverage; visualized Pakistan vs global series; applied 12‑month rolling means.
+
+**Results** Both global and Pakistan series warm markedly post‑1970; Pakistan’s variability is higher but follows the global upward drift.
 
 ## 2) Regional Breakdown-North, South, East (Punjab) Slopes
-**What we did:** Aggregated gridded anomalies by region and estimated linear warming rates.
-**Key takeaways:** North (mountains) warms fastest (~0.13 °C/decade), East/Punjab ~0.11 °C/decade (agri‑critical), South ~0.09 °C/decade (heat‑stress compounding).
+Aggregated gridded anomalies by region and estimated linear warming rates.
+
+**Results** North (mountains) warms fastest (~0.13 °C/decade), East/Punjab ~0.11 °C/decade (agri‑critical), South ~0.09 °C/decade (heat‑stress compounding).
 
 ## 3) Change Point Detection-1970s Acceleration
-**What we did:** Computed rolling 10‑year slopes and inspected structural shifts.
-**Key takeaways:** Persistent positive rates after the 1970s indicate a regime shift to sustained warming → higher baseline risk for heat, melt and water stress.
+Computed rolling 10‑year slopes and inspected structural shifts.
+
+**Results** Persistent positive rates after the 1970s indicate a regime shift to sustained warming → higher baseline risk for heat, melt and water stress.
 
 ## 4) Extreme Event Analysis-Top Hottest Years
-**What we did:** Ranked annual means and monthly extremes.
-**Key takeaways:** Top‑10 hottest years cluster after 2000, showing a frequent extremes (aligns with observed heatwaves and 2022 anomalies).
+Ranked annual means and monthly extremes.
+
+**Results** Top‑10 hottest years cluster after 2000, showing a frequent extremes (aligns with observed heatwaves and 2022 anomalies).
 
 ## 5) Pakistan vs Global Comparison
-**What we did:** Overlayed Pakistan and global anomalies; compared decadal means.
-**Key takeaways:** Pakistan’s warming is broadly in line with global trends but exhibits sharper peaks, reflecting regional sensitivity to large‑scale climate modes.
+Overlayed Pakistan and global anomalies; compared decadal means.
+
+**Results** Pakistan’s warming is broadly in line with global trends but exhibits sharper peaks, reflecting regional sensitivity to large‑scale climate modes.
 
 ## 6) Forecast — Prophet (with Uncertainty Bands)
-**What we did:** Fit Prophet on monthly anomalies and generated 10–20y forecasts with uncertainty intervals.
-**Key takeaways:** Median trajectory remains above historical baseline with rising anomalies; intervals reinforce high probability of continued warming.
+Fit Prophet on monthly anomalies and generated 10–20y forecasts with uncertainty intervals.
+
+**Results** Median trajectory remains above historical baseline with rising anomalies; intervals reinforce high probability of continued warming.
 > If ARIMA was used in the notebook, treat Prophet as an alternative specification; include whichever plot is present and label accordingly.
 
 ## 7) Policy & Societal Insights
@@ -82,7 +88,7 @@ Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
 
 ---
 
-## Environment & Dependencies
+## 🔧 Environment & Dependencies
 Python ≥ 3.9. Main libraries: pandas, numpy, matplotlib, seaborn, scikit‑learn, plotly.
 
 ```bash
