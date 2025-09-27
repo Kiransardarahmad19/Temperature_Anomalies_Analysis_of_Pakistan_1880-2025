@@ -110,7 +110,7 @@ Overlayed Pakistan and global anomalies; compared decadal means.
 
 **Results** Pakistan’s warming is broadly in line with global trends but exhibits sharper peaks, reflecting regional sensitivity to large‑scale climate modes.
 
-## 6: Forecast — Prophet (with Uncertainty Bands)
+## 6: Forecast : Prophet (with Uncertainty Bands)
 Used Prophet on monthly anomalies and generated 10–20y forecasts with uncertainty intervals.
 
 ![Prophet Forecast of Temperature Anomalies](prophets.png)  
@@ -150,31 +150,11 @@ Direct policy relevance → heat stress on humans, crops, livestock. Winters war
 
 **Climate Justice:** Pakistan emits <1% but bears outsized impacts → leverage evidence for climate finance & loss‑and‑damage.
 
----
-
-##  Environment & Dependencies
-Python ≥ 3.9. Main libraries: pandas, numpy, matplotlib, seaborn, scikit‑learn, plotly.
-
-```bash
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
-pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet pmdarima
-```
-
-## References 
-
-1. https://data.giss.nasa.gov/gistemp/ 
-2. https://seaborn.pydata.org/ 
-3. https://scikit-learn.org/stable/
-4. https://matplotlib.org/ 
 
 
 # Flood Risks in Climate Change
 
-Flood risk in Pakistan is strongly linked to warming + monsoon interactions + glacier melt. 
+Flood risk in Pakistan is strongly linked to warming and monsoon interactions and as well as glacier melt. 
 
 1. DJF (winter) anomalies (North Pakistan only) → proxy for snowpack/glacier melt risk.
 
@@ -203,7 +183,28 @@ The warm DJF (north), warm MAM (Pakistan), and the decadal warming trend into a 
 
 ![FCCI](fcci.png)  
 
-Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone — matching observed flood disasters like 2010 and 2022.
+Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone, matching observed flood disasters like 2010 and 2022.
+
+---
+
+##  Environment & Dependencies
+Python ≥ 3.9. Main libraries: pandas, numpy, matplotlib, seaborn, scikit‑learn, plotly.
+
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet pmdarima
+```
+
+## References 
+
+1. https://data.giss.nasa.gov/gistemp/ 
+2. https://seaborn.pydata.org/ 
+3. https://scikit-learn.org/stable/
+4. https://matplotlib.org/ 
 
 # Conclusion 
 
