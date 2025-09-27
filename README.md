@@ -72,22 +72,36 @@ Loaded NASA GISTEMP v4 monthly anomalies and validated coverage, Than visualized
 
 **Results** Both global and Pakistan series warm markedly post‑1970, Pakistan’s variability is higher but follows the global upward drift.
 
-## 2 : Regional Breakdown-North, South, East (Punjab) Slopes
+## 2 : Regional Breakdown-North, South, East (Punjab) Slopes and Season by Season Analysis 
 Aggregated gridded anomalies by region and estimated linear warming rates.
 
 ![Regional Breakdown](regional.png)  
 
 **Results** North (mountains) warms fastest (~0.13 °C/decade), East/Punjab ~0.11 °C/decade (agri‑critical), South ~0.09 °C/decade (heat‑stress compounding).
 
+**Monthly Analysis**
+
+![Monthly Analysis](monthly.png)  
+
+**Decadal Averages**
+
+![Decadal Averages](decadal.png)  
+
+
 ## 3: Change Point Detection-1970s Acceleration
 Computed rolling 10‑year slopes and inspected structural shifts.
 
-**Results** Persistent positive rates after the 1970s indicate a regime shift to sustained warming, higher baseline risk for heat, melt and water stress.
+![Change Point](changepoint.png)  
+
+**Results** Persistent positive rates after the 1970s indicate a regime shift to sustained warming, higher baseline risk for heat, melt and water stress. This structural change drives intensified glacial melt, heatwaves, and water stress, amplifying climate vulnerability across agriculture, health, and disaster risk.
 
 ## 4: Extreme Event Analysis-Top Hottest Years
 Ranked annual means and monthly extremes.
 
-**Results** Top‑10 hottest years cluster after 2000, showing a frequent extremes (aligns with observed heatwaves and 2022 anomalies).
+![Hottest Years of Pakistan](top10_hottest_year.png)  
+
+
+**Results** Top‑10 hottest years cluster after 2000, showing a frequent extremes (aligns with observed heatwaves and 2022 anomalies). This shows that 2025 is the hottest year till date. 
 
 ## 5: Pakistan vs Global Comparison
 Overlayed Pakistan and global anomalies; compared decadal means.
@@ -102,7 +116,29 @@ Used Prophet on monthly anomalies and generated 10–20y forecasts with uncertai
 
 **Results** Median trajectory remains above historical baseline with rising anomalies; intervals reinforce high probability of continued warming. According to the prophet's model, there is recent rise is more intense warming. 
 
-## 7: Policy & Societal Insights
+## 7: Policy & Societal Insights with Spatial Heatmaps
+
+Plot Pakistan map with temperature anomalies averaged for two eras:
+
+1. 1900–1950 (baseline)
+2. 2000–2025 (recent warming)
+
+These show how northern Pakistan (mountains) experiences more intense warming.
+
+![Spatial Heatmap](heatmap.png)  
+
+
+Here are results suggest that : 
+
+Winters warming faster: This threatens water availability, since less snowpack and earlier snowmelt reduce long-term Indus River flow.
+
+Summers heating steadily: Even moderate increases worsen heatwaves, urban heat stress, and crop damage during peak growing seasons.
+
+Climate imbalance: Unequal seasonal warming reshapes Pakistan’s climate system , reducing winter chill, shifting growing seasons, and compounding summer heat risks.
+
+**Purpose & Impact**:
+Direct policy relevance → heat stress on humans, crops, livestock. Winters warming slower → risk to Indus River water cycle, glacier melt patterns. Connects climate data → agriculture & food security.
+
 **Agriculture:** Heat stress threatens wheat/rice/cotton yields → invest in heat‑tolerant seeds and modern irrigation.
 
 **Water/Glaciers:** Northern warming accelerates melt → expand storage, basin management.
