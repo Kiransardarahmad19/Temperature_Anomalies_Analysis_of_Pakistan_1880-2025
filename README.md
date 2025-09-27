@@ -1,14 +1,16 @@
-# Temperature Anomalies in Pakistan (1880–2025)
+# Climate Anomalies in Pakistan (1880–2025)
 
 Flooding in Pakistan is an annual crisis intensified by climate change, driven by heavier monsoon rains, faster Himalayan glacial melt, and stressed drainage infrastructure. On average, floods displace 3–5 million people each year, destroying nearly 800,000 homes and damaging up to 2 million acres of cropland. The 2022 super floods, linked to unprecedented monsoon intensity and warming, impacted 33 million people and caused over $30 billion in losses, highlighting how global climate change is amplifying Pakistan’s vulnerability to extreme weather.
 
-“This project analyzes monthly temperature anomaly data for Pakistan (1880–2025) using exploratory data analysis and time-series forecasting. The goal is to measure long-term warming trends, smooth seasonal fluctuations, and build predictive models to forecast future temperature changes. By focusing on Pakistan, a climate-vulnerable country , the study highlights both historical climate change impacts and future risks.”
+“This project analyzes climate anomaly data for Pakistan (1880–2025) using exploratory data analysis and time-series forecasting. The goal is to measure long-term warming trends, smooth seasonal fluctuations, and build predictive models to forecast future temperature changes related to Floods. By focusing on Pakistan, a climate-vulnerable country , the study highlights both historical climate change impacts and future risks.”
 
 This repository contains the notebook **`main.ipynb`**, which analyzes historical and future temperature anomaly trends for Pakistan using NASA GISTEMP data.
 
 ## Repository Contents
 - `main.ipynb` — Jupyter notebook with code, visuals, and findings.
+- `flood_analysis.ipynb` — Jupyter notebook with code, visuals, and findings.
 - `README.md` - Summary of Project 
+
 
 ## Dataset Source
 The dataset used to conduct this study is NASA GISTEMP v4: https://data.giss.nasa.gov/gistemp/
@@ -27,7 +29,7 @@ During the preparation phase, the following tasks were carried out:
 ![Data Preparation](dataprep.png) 
 
 
-# Temperature Anomalies in Pakistan (1880–2025)
+# Climate Change Anomalies in Pakistan (1880–2025)
 
 ## 1. Introduction
 
@@ -127,7 +129,6 @@ These show how northern Pakistan (mountains) experiences more intense warming.
 
 ![Spatial Heatmap](heatmap.png)  
 
-
 Here are results suggest that : 
 
 Winters warming faster: This threatens water availability, since less snowpack and earlier snowmelt reduce long-term Indus River flow.
@@ -171,9 +172,42 @@ pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet p
 4. https://matplotlib.org/ 
 
 
+# Flood Risks in Climate Change
+
+Flood risk in Pakistan is strongly linked to warming + monsoon interactions + glacier melt. 
+
+1. DJF (winter) anomalies (North Pakistan only) → proxy for snowpack/glacier melt risk.
+
+![DJF](djf.png)  
+
+DJF (North) winters: strong upward shift since ~1980 with frequent > +1–2 °C winters → less snowpack, earlier/stronger melt → higher base river flow before monsoon.
+
+
+2. MAM (pre-monsoon) anomalies (whole Pakistan) → warmer pre-monsoon air can hold more moisture, leading to heavier rains.
+
+![MAM](mam.png)  
+
+MAM (Pakistan) pre-monsoon: clear post-2000 surge (often > +1.5–3 °C) → warmer air holds more moisture → heavier downpours more likely.
+
+
+3. Long-term warming trend → climate pressure index.
+
+![Rolling](rolling.png)  
+
+10-yr rolling trend: mostly positive after the late 1970s, peaking around ~2000 and staying above zero recently → sustained background warming that amplifies extremes.
+
+
+### Flood-Conducive Climate Index (FCCI)
+
+The warm DJF (north), warm MAM (Pakistan), and the decadal warming trend into a standardized index. Years above the 75th percentile are tagged High climate flood risk, reflecting snowmelt-plus-monsoon conditions enhanced by climate change.
+
+![FCCI](fcci.png)  
+
+Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone — matching observed flood disasters like 2010 and 2022.
+
 # Conclusion 
 
 Pakistan’s climate record (1880–2025) shows a clear and accelerating warming trend, with anomalies now consistently above +1°C in recent decades. Winters are warming faster than summers, already disrupting water cycles, snowmelt patterns, and agricultural growing seasons.
 Regional analysis reveals the north heating fastest, threatening glaciers and water security, while Punjab and the south face intensifying crop stress and deadly heatwaves.
-Looking ahead, forecasts confirm Pakistan will remain in a new climate normal, with anomalies projected to rise further, amplifying risks to flood, food security, health. 
+Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone — matching observed flood disasters like 2010 and 2022.
 
