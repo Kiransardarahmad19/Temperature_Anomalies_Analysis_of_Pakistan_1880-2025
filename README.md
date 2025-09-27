@@ -233,4 +233,9 @@ Regional analysis reveals the north heating fastest, threatening glaciers and wa
 Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone — matching observed flood disasters like 2010 and 2022. Pakistan has entered an era of structurally elevated flood risk, and the forecast suggests this high-risk regime will persist into the 2030s and 2040s due to climate change. 
 
 
+## Limitations 
+
+While the Flood-Conducive Climate Index (FCCI) provides valuable insights into the relationship between warming trends and flood-conducive conditions in Pakistan, it has important limitations. The index is built using temperature anomalies only (winter, pre-monsoon, and long-term warming), without incorporating direct hydrological drivers such as precipitation, river discharge, soil moisture, or land use changes. herefore, FCCI should be interpreted as a climate-risk indicator, not as a flood early-warning system.
+
+
 
