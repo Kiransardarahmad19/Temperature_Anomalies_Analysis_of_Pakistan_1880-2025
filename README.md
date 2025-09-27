@@ -6,16 +6,24 @@ Flooding in Pakistan is an annual crisis intensified by climate change, driven b
 
 This repository contains the notebook **`main.ipynb`**, which analyzes historical and future temperature anomaly trends for Pakistan using NASA GISTEMP data.
 
-## 📁 Repository Contents
+## Repository Contents
 - `main.ipynb` — Jupyter notebook with code, visuals, and findings.
 - `README.md` - Summary of Project 
 
-## 📊 Dataset Source
+## Dataset Source
 The dataset used to conduct this study is NASA GISTEMP v4: https://data.giss.nasa.gov/gistemp/
 
 Since, Pakistan is the main focus, Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
 
----
+## Data Cleaning & Preparation  
+
+During the preparation phase, the following tasks were carried out:  
+- Data loading and initial inspection (shape, columns, missing values).  
+- Handling nulls, duplicates, and inconsistent formats.  
+- Converting data types (dates, numerical fields).  
+- Filtering relevant subsets (e.g., Pakistan region anomalies).  
+- Creating derived variables (rolling averages, seasonal groupings).
+
 
 # Temperature Anomalies in Pakistan (1880–2025)
 
@@ -116,6 +124,13 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet pmdarima
 ```
+
+## References 
+
+1. https://data.giss.nasa.gov/gistemp/ 
+2. https://seaborn.pydata.org/ 
+3. https://scikit-learn.org/stable/
+4. https://matplotlib.org/ 
 
 
 ## Conclusion 
