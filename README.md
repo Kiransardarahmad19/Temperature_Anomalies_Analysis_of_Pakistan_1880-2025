@@ -185,6 +185,26 @@ The warm DJF (north), warm MAM (Pakistan), and the decadal warming trend into a 
 
 Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone, matching observed flood disasters like 2010 and 2022.
 
+### High climate flood-risk ( 2030-2040)
+
+1880–1970:
+FCCI mostly below or around 0.
+Flood-conducive climate years rare, occasional spikes.
+
+1970–2000:
+FCCI rises more often into positive zone. This aligns with Pakistan’s major flood years (1973, 1976, 1992).
+
+2000–2025:
+FCCI frequently above 75th percentile (High risk zone). Matches the era of catastrophic floods (2010, 2011, 2012, 2022).
+
+
+2025–2040 Forecast:
+Point forecast (orange) stays above the median, often near high-risk threshold. Uncertainty band widens but remains mostly positive → floods remain likely and persistent. Strong signal that flood-conducive years will dominate future decades.
+
+![Future Prediction](historynfuture.png)  
+
+FCCI graph proves that since the 1970s Pakistan has entered an era of structurally elevated flood risk, and the forecast suggests this high-risk regime will persist into the 2030s and 2040s due to climate change. 
+
 ---
 
 ##  Environment & Dependencies
@@ -210,5 +230,7 @@ pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet p
 
 Pakistan’s climate record (1880–2025) shows a clear and accelerating warming trend, with anomalies now consistently above +1°C in recent decades. Winters are warming faster than summers, already disrupting water cycles, snowmelt patterns, and agricultural growing seasons.
 Regional analysis reveals the north heating fastest, threatening glaciers and water security, while Punjab and the south face intensifying crop stress and deadly heatwaves.
-Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone — matching observed flood disasters like 2010 and 2022.
+Pakistan has entered a regime of persistently high flood-conducive climate conditions, with recent decades firmly in the high-risk zone — matching observed flood disasters like 2010 and 2022. Pakistan has entered an era of structurally elevated flood risk, and the forecast suggests this high-risk regime will persist into the 2030s and 2040s due to climate change. 
+
+
 
