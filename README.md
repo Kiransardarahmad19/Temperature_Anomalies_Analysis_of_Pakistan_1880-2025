@@ -24,6 +24,8 @@ During the preparation phase, the following tasks were carried out:
 - Filtering relevant subsets (e.g., Pakistan region anomalies).  
 - Creating derived variables (rolling averages, seasonal groupings).
 
+![Data Preparation](dataprep.png) 
+
 
 # Temperature Anomalies in Pakistan (1880–2025)
 
@@ -133,7 +135,7 @@ pip install -U pip pandas numpy matplotlib seaborn scikit-learn plotly prophet p
 4. https://matplotlib.org/ 
 
 
-## Conclusion 
+# Conclusion 
 
 Pakistan’s climate record (1880–2025) shows a clear and accelerating warming trend, with anomalies now consistently above +1°C in recent decades. Winters are warming faster than summers, already disrupting water cycles, snowmelt patterns, and agricultural growing seasons.
 Regional analysis reveals the north heating fastest, threatening glaciers and water security, while Punjab and the south face intensifying crop stress and deadly heatwaves.
