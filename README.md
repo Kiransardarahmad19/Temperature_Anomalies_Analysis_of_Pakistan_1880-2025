@@ -6,11 +6,11 @@ Flooding in Pakistan is an annual crisis intensified by climate change, driven b
 
 This repository contains the notebook **`main.ipynb`**, which analyzes historical and future temperature anomaly trends for Pakistan using NASA GISTEMP data.
 
-## Repository Contents
+## 📁 Repository Contents
 - `main.ipynb` — Jupyter notebook with code, visuals, and findings.
 - `README.md` - Summary of Project 
 
-## Dataset Source
+## 📊 Dataset Source
 The dataset used to conduct this study is NASA GISTEMP v4: https://data.giss.nasa.gov/gistemp/
 
 Since, Pakistan is the main focus, Subset: Pakistan’s latitude (24–37°N) and longitude (60–77°E).
@@ -56,10 +56,16 @@ Since, Pakistan is the main focus, Subset: Pakistan’s latitude (24–37°N) an
 ## 1 : EDA-Global & Pakistan Anomaly Trends
 Loaded NASA GISTEMP v4 monthly anomalies and validated coverage, Than visualized Pakistan vs global series and applied 12‑month rolling means.
 
+![Global Anamoly](global.png) 
+
+![Pakistan Anamoly](pakistan.png) 
+
 **Results** Both global and Pakistan series warm markedly post‑1970, Pakistan’s variability is higher but follows the global upward drift.
 
 ## 2 : Regional Breakdown-North, South, East (Punjab) Slopes
 Aggregated gridded anomalies by region and estimated linear warming rates.
+
+![Regional Breakdown](regional.png)  
 
 **Results** North (mountains) warms fastest (~0.13 °C/decade), East/Punjab ~0.11 °C/decade (agri‑critical), South ~0.09 °C/decade (heat‑stress compounding).
 
@@ -79,7 +85,10 @@ Overlayed Pakistan and global anomalies; compared decadal means.
 **Results** Pakistan’s warming is broadly in line with global trends but exhibits sharper peaks, reflecting regional sensitivity to large‑scale climate modes.
 
 ## 6: Forecast — Prophet (with Uncertainty Bands)
-Fit Prophet on monthly anomalies and generated 10–20y forecasts with uncertainty intervals.
+Used Prophet on monthly anomalies and generated 10–20y forecasts with uncertainty intervals.
+
+![Prophet Forecast of Temperature Anomalies](prophets.png)  
+*Figure: Prophet forecast (10–20 years) with uncertainty bands showing continued warming in Pakistan.*  
 
 **Results** Median trajectory remains above historical baseline with rising anomalies; intervals reinforce high probability of continued warming. According to the prophet's model, there is recent rise is more intense warming. 
 
